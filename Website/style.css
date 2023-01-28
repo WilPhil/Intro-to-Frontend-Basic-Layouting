@@ -1,6 +1,9 @@
 body {
-    background: rgb(242,235,34);
-    background: linear-gradient(312deg, rgba(242,235,34,1) 0%, rgba(238,240,171,1) 100%);    
+    background-color: bisque;
+}
+
+img {
+  width: 100px;
 }
 
 .container {
@@ -19,7 +22,7 @@ body {
     box-sizing: border-box;
     width: 190px;
     height: 254px;
-    background: rgba(217, 217, 217, 0.58);
+    background: #F7C5CC;
     box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
     backdrop-filter: blur(6px);
     border-radius: 17px;
@@ -36,9 +39,14 @@ body {
   
   .container div:hover {
     border: 1px solid black;
-    transform: scale(1.05);
-  }
-  
-  .container div:active {
     transform: scale(0.95) rotateZ(1.7deg);
+  }
+
+  a {
+    color: #CC313D;
+    text-decoration: none;
+  }
+
+  img {
+    border-radius: 50%;
   }

@@ -1,0 +1,22 @@
+html {
+    background: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 250px;
+}
+
+p {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+}
