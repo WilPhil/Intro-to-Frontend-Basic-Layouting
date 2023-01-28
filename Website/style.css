@@ -16,6 +16,7 @@ img {
     height: 80vh;
     flex-direction: row;
     padding-top: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .container div {
