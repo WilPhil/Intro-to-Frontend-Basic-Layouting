@@ -48,7 +48,7 @@ class Search {
             const mealElement = document.createElement("div");
             mealElement.innerHTML = `
                 <h2>${meal.strMeal}</h2>
-                <img src="${meal.strMealThumb}" alt="${meal.strMeal}"/>
+                <img src="${meal.strMealThumb}" alt="${meal.strMeal}" width="500px"/>
             `;
             mealElement.addEventListener("click", () => {
                 this.displayMealDetails(meal.idMeal);
@@ -79,6 +79,7 @@ class Search {
                     const recipeElement = document.createElement("div");
                     recipeElement.innerHTML = `
                         <h2>${meal.strMeal}</h2>
+                        <img src="${meal.strMealThumb}" alt="${meal.strMeal}" width="500px">
                         <h3>Ingredients:</h3>
                         <ul>
                             ${ingredients.map((ingredient) => `<li>${ingredient}</li>`).join("")}
