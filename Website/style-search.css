@@ -1,7 +1,48 @@
 body {
     background-color: bisque;
     font: 25px system-ui;
-    color: #fff;
+    color: #1c1c1e;
+}
+
+.home-bar {
+  font: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 36px;
+  margin-top: 5px;
+  padding: 5px;
+  background-color: #F7C5CC;
+  color: #fff;
+  width: 5%;
+  height: 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+
+.home-bar:hover {
+  filter: brightness(90%);
+}
+
+a {
+  color: #CC313D;
+  text-decoration: none;
+}
+
+.searching-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+p {
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  margin-top: 20px;
 }
 
 form {
